@@ -1,0 +1,317 @@
+{
+  "baseline": {
+    "locomo": {
+      "metrics": {
+        "curve_type": "absolute_retained_memory",
+        "forgetting_curve": {
+          "0_31": {
+            "score": 0.0,
+            "raw_score": 0.0,
+            "n": 5,
+            "lag_lo": 0,
+            "lag_hi": 32
+          },
+          "32_63": {
+            "score": 0.0,
+            "raw_score": 0.0,
+            "n": 9,
+            "lag_lo": 32,
+            "lag_hi": 64
+          },
+          "64_127": {
+            "score": 0.0,
+            "raw_score": 0.0,
+            "n": 17,
+            "lag_lo": 64,
+            "lag_hi": 128
+          },
+          "128_255": {
+            "score": 0.0,
+            "raw_score": 0.0,
+            "n": 50,
+            "lag_lo": 128,
+            "lag_hi": 256
+          },
+          "256_plus": {
+            "score": 0.0,
+            "raw_score": 0.0,
+            "n": 158,
+            "lag_lo": 256,
+            "lag_hi": null
+          }
+        }
+      },
+      "latency_ms": 1.0013580322265625
+    }
+  },
+  "m1_prefix": {
+    "locomo": {
+      "metrics": {
+        "curve_type": "absolute_retained_memory",
+        "forgetting_curve": {
+          "0_31": {
+            "score": 0.30864197530864196,
+            "raw_score": 0.0,
+            "n": 5,
+            "lag_lo": 0,
+            "lag_hi": 32
+          },
+          "32_63": {
+            "score": 0.30864197530864196,
+            "raw_score": 0.0,
+            "n": 9,
+            "lag_lo": 32,
+            "lag_hi": 64
+          },
+          "64_127": {
+            "score": 0.30864197530864196,
+            "raw_score": 0.0,
+            "n": 17,
+            "lag_lo": 64,
+            "lag_hi": 128
+          },
+          "128_255": {
+            "score": 0.30864197530864196,
+            "raw_score": 0.5,
+            "n": 50,
+            "lag_lo": 128,
+            "lag_hi": 256
+          },
+          "256_plus": {
+            "score": 0.26935668782280847,
+            "raw_score": 0.26935668782280847,
+            "n": 158,
+            "lag_lo": 256,
+            "lag_hi": null
+          }
+        }
+      },
+      "latency_ms": 231259.0515613556
+    }
+  },
+  "m2_xattn": {
+    "locomo": {
+      "metrics": {
+        "curve_type": "absolute_retained_memory",
+        "forgetting_curve": {
+          "0_31": {
+            "score": 0.7059328398240532,
+            "raw_score": 0.0,
+            "n": 5,
+            "lag_lo": 0,
+            "lag_hi": 32
+          },
+          "32_63": {
+            "score": 0.7059328398240532,
+            "raw_score": 0.0,
+            "n": 9,
+            "lag_lo": 32,
+            "lag_hi": 64
+          },
+          "64_127": {
+            "score": 0.7059328398240532,
+            "raw_score": 0.0,
+            "n": 17,
+            "lag_lo": 64,
+            "lag_hi": 128
+          },
+          "128_255": {
+            "score": 0.7059328398240532,
+            "raw_score": 0.3076923076923077,
+            "n": 50,
+            "lag_lo": 128,
+            "lag_hi": 256
+          },
+          "256_plus": {
+            "score": 0.7059328398240532,
+            "raw_score": 0.970464135021097,
+            "n": 158,
+            "lag_lo": 256,
+            "lag_hi": null
+          }
+        }
+      },
+      "latency_ms": 171117.92087554932
+    }
+  },
+  "m3_kv_ext": {
+    "locomo": {
+      "metrics": {
+        "curve_type": "absolute_retained_memory",
+        "forgetting_curve": {
+          "0_31": {
+            "score": 0.30864197530864196,
+            "raw_score": 0.0,
+            "n": 5,
+            "lag_lo": 0,
+            "lag_hi": 32
+          },
+          "32_63": {
+            "score": 0.30864197530864196,
+            "raw_score": 0.0,
+            "n": 9,
+            "lag_lo": 32,
+            "lag_hi": 64
+          },
+          "64_127": {
+            "score": 0.30864197530864196,
+            "raw_score": 0.0,
+            "n": 17,
+            "lag_lo": 64,
+            "lag_hi": 128
+          },
+          "128_255": {
+            "score": 0.30864197530864196,
+            "raw_score": 0.5,
+            "n": 50,
+            "lag_lo": 128,
+            "lag_hi": 256
+          },
+          "256_plus": {
+            "score": 0.26935668782280847,
+            "raw_score": 0.26935668782280847,
+            "n": 158,
+            "lag_lo": 256,
+            "lag_hi": null
+          }
+        }
+      },
+      "latency_ms": 232230.15642166138
+    }
+  },
+  "m4_hebbian": {
+    "locomo": {
+      "metrics": {
+        "curve_type": "absolute_retained_memory",
+        "forgetting_curve": {
+          "0_31": {
+            "score": 0.6714755422606764,
+            "raw_score": 0.0,
+            "n": 5,
+            "lag_lo": 0,
+            "lag_hi": 32
+          },
+          "32_63": {
+            "score": 0.6714755422606764,
+            "raw_score": 0.0,
+            "n": 9,
+            "lag_lo": 32,
+            "lag_hi": 64
+          },
+          "64_127": {
+            "score": 0.6714755422606764,
+            "raw_score": 0.0,
+            "n": 17,
+            "lag_lo": 64,
+            "lag_hi": 128
+          },
+          "128_255": {
+            "score": 0.6714755422606764,
+            "raw_score": 0.3076923076923077,
+            "n": 50,
+            "lag_lo": 128,
+            "lag_hi": 256
+          },
+          "256_plus": {
+            "score": 0.6714755422606764,
+            "raw_score": 0.9183420203524447,
+            "n": 158,
+            "lag_lo": 256,
+            "lag_hi": null
+          }
+        }
+      },
+      "latency_ms": 171875.85949897766
+    }
+  },
+  "m5_gated": {
+    "locomo": {
+      "metrics": {
+        "curve_type": "absolute_retained_memory",
+        "forgetting_curve": {
+          "0_31": {
+            "score": 24.000000000000004,
+            "raw_score": 24.000000000000004,
+            "n": 5,
+            "lag_lo": 0,
+            "lag_hi": 32
+          },
+          "32_63": {
+            "score": 6.112612877318759,
+            "raw_score": 1.1544011544011543,
+            "n": 9,
+            "lag_lo": 32,
+            "lag_hi": 64
+          },
+          "64_127": {
+            "score": 6.112612877318759,
+            "raw_score": 8.737548495333963,
+            "n": 17,
+            "lag_lo": 64,
+            "lag_hi": 128
+          },
+          "128_255": {
+            "score": 5.797746697746699,
+            "raw_score": 5.797746697746699,
+            "n": 50,
+            "lag_lo": 128,
+            "lag_hi": 256
+          },
+          "256_plus": {
+            "score": 4.749730392880058,
+            "raw_score": 4.749730392880058,
+            "n": 158,
+            "lag_lo": 256,
+            "lag_hi": null
+          }
+        }
+      },
+      "latency_ms": 374009.0639591217
+    }
+  },
+  "m6_slot": {
+    "locomo": {
+      "metrics": {
+        "curve_type": "absolute_retained_memory",
+        "forgetting_curve": {
+          "0_31": {
+            "score": 3.2258064516129026,
+            "raw_score": 0.0,
+            "n": 5,
+            "lag_lo": 0,
+            "lag_hi": 32
+          },
+          "32_63": {
+            "score": 3.2258064516129026,
+            "raw_score": 0.0,
+            "n": 9,
+            "lag_lo": 32,
+            "lag_hi": 64
+          },
+          "64_127": {
+            "score": 3.2258064516129026,
+            "raw_score": 5.88235294117647,
+            "n": 17,
+            "lag_lo": 64,
+            "lag_hi": 128
+          },
+          "128_255": {
+            "score": 3.084469792465744,
+            "raw_score": 2.624242424242424,
+            "n": 50,
+            "lag_lo": 128,
+            "lag_hi": 256
+          },
+          "256_plus": {
+            "score": 3.084469792465744,
+            "raw_score": 3.2301113646883137,
+            "n": 158,
+            "lag_lo": 256,
+            "lag_hi": null
+          }
+        }
+      },
+      "latency_ms": 141682.77716636658
+    }
+  }
+}
